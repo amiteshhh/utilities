@@ -17,7 +17,7 @@ These methods returns [promise](https://docs.angularjs.org/api/ng/service/$q) wh
 
 ## Demo
 
-Check out the demo at [Plunker](https://plnkr.co/edit/SNhye1/)
+Check out the demo at [Plunker](https://embed.plnkr.co/SNhye1/)
 
 
 ## Usage 
@@ -65,16 +65,16 @@ angular.controller('myCtrl', ['PopupSvc', function(PopupSvc){//Inject the PopupS
 
 ## Install
 
-Download the script file directly from Github and add `script` reference to your html.
+Download the script file directly from Github.
 
-Once done, add `popup` module as dependency. Now you can use `PopupSvc` service.
+https://raw.githubusercontent.com/amiteshhh/utilities/master/angular/popup/popup.service.min.js
 
-Github Link: https://raw.githubusercontent.com/amiteshhh/utilities/master/angular/popup/popup.service.min.js
+Add `script` reference to your html then add `popup` module as angular module dependency. Now you can use `PopupSvc` service.
 
 
 ## Advance Usage
 
-To have a custom look and feel (e.g button texts etc.) use below option as a parameter to `alert` or `confirm`. All of the option properties are optional. But Of course you will provide value for `body` or `title` to render some text.
+To have a custom look and feel (e.g button texts etc.) use below option as a parameter to `alert` or `confirm`. All of the option properties are optional. Of course you will provide value for `body` or `title` to render some text.
 
 
 > popup is created using bootstrap $uibModal hence there are few properties related to that as well
@@ -111,13 +111,13 @@ To have a custom look and feel (e.g button texts etc.) use below option as a par
 
 ```
 
-> Moreover all applicable string inputs can be `html string` hence you can easily control the style.
+> Sice all applicable string inputs can contains `html` tags therefore you can easily control the style.
+
 
 ## Default Configuration
 
 You can easily configure the default popup option for the application during config phase using `PopupSvcProvider` as below.
 
-However the inline option will still take precedence over app level configuration.
 
 ```javascript
 angular.module('myApp', ['popup'])
@@ -130,7 +130,7 @@ angular.module('myApp', ['popup'])
         });
     }]);
 ```
-
+However the option parameter will still take precedence over app level configuration.
 
 ## License
 

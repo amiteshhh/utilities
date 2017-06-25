@@ -3,7 +3,7 @@
 
 ## Angular Utilities
 
-1. **[Popup/Dialogue Service](tree/master/angular/popup/README.md)**
+1. **[Popup/Dialogue Service](https://github.com/amiteshhh/utilities/tree/master/angular/popup)**
 
 
 ## Generic Utilities
