@@ -1,0 +1,3 @@
+[submodule "angular/angular-uib-popup"]
+	path = angular/angular-uib-popup
+	url = https://github.com/amiteshhh/angular-uib-popup.git
